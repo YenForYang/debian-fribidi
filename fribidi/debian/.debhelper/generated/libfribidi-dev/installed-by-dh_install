@@ -1,0 +1,4 @@
+debian/tmp/usr/include/fribidi/
+debian/tmp/usr/lib/x86_64-linux-gnu/libfribidi.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libfribidi.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/fribidi.pc

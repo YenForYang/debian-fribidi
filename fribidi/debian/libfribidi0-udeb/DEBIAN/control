@@ -1,0 +1,12 @@
+Package: libfribidi0-udeb
+Source: fribidi
+Version: 1.0.5-4
+Architecture: amd64
+Maintainer: Debian Hebrew Packaging Team <team+hebrew@tracker.debian.org>
+Installed-Size: 115
+Depends: libc6-udeb (>= 2.27)
+Section: debian-installer
+Priority: optional
+Description: Free Implementation of the Unicode BiDi algorithm
+ This Debian Installer component provided Bidirectional support
+ for Arabic and/or Hebrew languages.

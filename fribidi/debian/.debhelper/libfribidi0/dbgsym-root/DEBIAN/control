@@ -1,0 +1,13 @@
+Package: libfribidi0-dbgsym
+Source: fribidi
+Version: 1.0.5-4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Hebrew Packaging Team <team+hebrew@tracker.debian.org>
+Installed-Size: 18
+Depends: libfribidi0 (= 1.0.5-4)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libfribidi0
+Build-Ids: 88c3eb3048b7d2701e2ed709c96517c33f922088

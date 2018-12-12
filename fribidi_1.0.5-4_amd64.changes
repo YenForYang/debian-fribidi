@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Mon, 01 Oct 2018 09:40:36 +0200
+Source: fribidi
+Binary: libfribidi0 libfribidi-dev libfribidi0-udeb libfribidi-bin
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 1.0.5-4
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Debian Hebrew Packaging Team <team+hebrew@tracker.debian.org>
+Changed-By: Ondřej Nový <onovy@debian.org>
+Description:
+ libfribidi-bin - Free Implementation of the Unicode BiDi algorithm (utility)
+ libfribidi-dev - Development files for FreeBidi library
+ libfribidi0 - Free Implementation of the Unicode BiDi algorithm
+ libfribidi0-udeb - Free Implementation of the Unicode BiDi algorithm (udeb)
+Changes:
+ fribidi (1.0.5-4) UNRELEASED; urgency=medium
+ .
+   * d/copyright: Change Format URL to correct one
+Checksums-Sha1:
+ ad9e332c6acfb8f35be48c5d1e3de215cebf5a1a 6380 fribidi_1.0.5-4_amd64.buildinfo
+ 3b1d52bd53b3fe11e8d7af0b174460c79c3e9948 2952 libfribidi-bin-dbgsym_1.0.5-4_amd64.deb
+ 91787b31d8ad38b502e1117269acd5e54fd5ee62 50272 libfribidi-bin_1.0.5-4_amd64.deb
+ 3637dd551faad82f3977a78ed2b423a91b737577 222140 libfribidi-dev_1.0.5-4_amd64.deb
+ 2c9d8a15fdd0684c0bf2db3505f61a846ac0d13a 3084 libfribidi0-dbgsym_1.0.5-4_amd64.deb
+ d3b0b655917cefae02b42863f29d375fe3de64d0 17660 libfribidi0-udeb_1.0.5-4_amd64.udeb
+ 8cc24c65e6d2f1523b64c16c33f05cc600dadfa6 57796 libfribidi0_1.0.5-4_amd64.deb
+Checksums-Sha256:
+ d4650f1e565a5e9747e2708fe4a5a34409ad5d73eb3d1d497fb43194696d3be5 6380 fribidi_1.0.5-4_amd64.buildinfo
+ 4a55f9cac7d08236aef0ce53c41b19c165c054a6c2b7a3139518677574ebd248 2952 libfribidi-bin-dbgsym_1.0.5-4_amd64.deb
+ 5cbab6d96455b616a228af86fbd8a81316ff9ffb153a56f70e9d47d9a226df86 50272 libfribidi-bin_1.0.5-4_amd64.deb
+ b8911c4432c1b332e0945e01ec2b31a26da69584c64539568e12e55f1f6f3953 222140 libfribidi-dev_1.0.5-4_amd64.deb
+ d7f826cc457bec881be0d84a5d31e5d2ba333eec0186cd6f93f7939e303b7dd2 3084 libfribidi0-dbgsym_1.0.5-4_amd64.deb
+ 1e9d7737f324392e074930906bd0254f43d64e7e761efa8fcae596938f5c388b 17660 libfribidi0-udeb_1.0.5-4_amd64.udeb
+ b40cb8798c97987b1ff2626fd1dfcb626dfe36f09cb68a3527646c3fb139e930 57796 libfribidi0_1.0.5-4_amd64.deb
+Files:
+ 8e87482c90e3e3fe3912914e8783e30d 6380 libs optional fribidi_1.0.5-4_amd64.buildinfo
+ 7533240217982aa3657bbc5382a4c677 2952 debug optional libfribidi-bin-dbgsym_1.0.5-4_amd64.deb
+ 7836549c03f18bb5947cda6402e2aa98 50272 utils optional libfribidi-bin_1.0.5-4_amd64.deb
+ a7a36c54be9fe3068222215336c9af4c 222140 libdevel optional libfribidi-dev_1.0.5-4_amd64.deb
+ 08c1de513092d24f0d4fb8b69f524dc5 3084 debug optional libfribidi0-dbgsym_1.0.5-4_amd64.deb
+ 0629abb34dd971f6846a321f32dad151 17660 debian-installer optional libfribidi0-udeb_1.0.5-4_amd64.udeb
+ 632bf04215c82fd11bbe343d93da1778 57796 libs optional libfribidi0_1.0.5-4_amd64.deb
